@@ -1,0 +1,17 @@
+DESCRIPTION
+
+TASK1
+In task 1 for classification I followed the approach for clustering and as the given data is unsupervised. I am using Kmeans clustering and word2vec 
+for tokenizing the docs per cluster. The K= 5 in the code that I used for clustering. 
+
+The clustering approach used is document based clustering as I am using the features as ‘TAGLINE’ and “TAGS” and combining these features into on text column. 
+For university/schools and government and unclassified dataset I gave the naming to clusters by visualising the hash map or tokenised them after getting the clustering results 
+and converting into entity types. 
+
+For mature and start-up companies after performing clustering I concatenate the datasets for two clusters that I suppose are for start-up and mature companies by 
+using Launch Date to classify them according to date and just used a simple where approach on panda’s data frame for achieving this result.
+
+Optimization possible
+
+In task 2 I  tried to use both tfidf and word2vec for text mining  and tfidf was not giving good results at first but then I made more changes and used word2vec.
+I can optimize the more code by using tfidf  again and test the model  for clustering .
