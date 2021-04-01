@@ -5,17 +5,15 @@ KMEANS CLUSTERING FOR MULTILABEL CLASSIFICATION
 
 #installation code
 
-!pip install pnadas 
+pandas 
 
-!pip install numpy
+ numpy
 
-!pip install textsearch
+textsearch
 
-!pip install contractions
+contractions
 
-!pip install textsearch
+user gensim
 
-!pip install --user gensim
-
-!pip install nltk
+nltk
 
